@@ -16,11 +16,10 @@ deploy:
   env: "GitDockerReactTravis-env"
   bucket_name: "elasticbeanstalk-us-east-2-831964246238"
   bucket_path: "git-docker-react-travis"
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
   on:
     branch: master
-  access_key_id: 
-    secure: $AWS_ACCESS_KEY
-  secret_access_key: 
-    secure: "$AWS_SECRET_KEY"
+
 
 
