@@ -11,10 +11,10 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: "us-west-2"
+  region: "us-east-2"
   app: "git-docker-react-travis"
   env: "GitDockerReactTravis-env"
-  bucket_name: "elasticbeanstalk-us-west-2-831964246238"
+  bucket_name: "elasticbeanstalk-us-east-2-831964246238"
   bucket_path: "git-docker-react-travis"
   on:
     branch: master
